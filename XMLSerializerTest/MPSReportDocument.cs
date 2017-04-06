@@ -105,14 +105,12 @@ namespace XMLSerializerTest
 
         public static void NewSerializer()
         {
-            Type[] extraTypes = new Type[7];
+            Type[] extraTypes = new Type[5];
             extraTypes[0] = typeof(MPSReportPage);
             extraTypes[1] = typeof(MPSReportField);
             extraTypes[2] = typeof(MPSTextField);
             extraTypes[3] = typeof(MPSImageField);
             extraTypes[4] = typeof(Margins);
-            extraTypes[5] = typeof(Size);
-            extraTypes[6] = typeof(System.Drawing.Point);
 
             try
             {
