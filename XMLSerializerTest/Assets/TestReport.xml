@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<MPSReportDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Test Report</Name>
+  <Pages>
+    <MPSReportPage>
+      <Name>Page 1</Name>
+      <Size>
+        <Width>850</Width>
+        <Height>1100</Height>
+      </Size>
+      <Margins>
+        <Left>50</Left>
+        <Right>50</Right>
+        <Top>50</Top>
+        <Bottom>50</Bottom>
+      </Margins>
+      <Fields>
+        <MPSReportField xsi:type="MPSImageField">
+          <Alignment>Near</Alignment>
+          <Name>ImageField1</Name>
+          <LineAlignment>Near</LineAlignment>
+          <BackColor>Transparent</BackColor>
+          <Size>
+            <Width>96</Width>
+            <Height>96</Height>
+          </Size>
+          <Visible>true</Visible>
+          <Location>
+            <X>344</X>
+            <Y>48</Y>
+          </Location>
+          <Borders>
+            <Top>0</Top>
+            <Bottom>0</Bottom>
+            <Left>0</Left>
+            <Right>0</Right>
+          </Borders>
+          <Padding>
+            <Top>0</Top>
+            <Bottom>0</Bottom>
+            <Left>0</Left>
+            <Right>0</Right>
+          </Padding>
+        </MPSReportField>
+        <MPSReportField xsi:type="MPSTextField">
+          <Alignment>Near</Alignment>
+          <Name>TextField2</Name>
+          <LineAlignment>Near</LineAlignment>
+          <BackColor>Transparent</BackColor>
+          <Size>
+            <Width>728</Width>
+            <Height>40</Height>
+          </Size>
+          <Visible>true</Visible>
+          <Location>
+            <X>64</X>
+            <Y>200</Y>
+          </Location>
+          <Borders>
+            <Top>0</Top>
+            <Bottom>0</Bottom>
+            <Left>0</Left>
+            <Right>0</Right>
+          </Borders>
+          <Padding>
+            <Top>0</Top>
+            <Bottom>0</Bottom>
+            <Left>0</Left>
+            <Right>0</Right>
+          </Padding>
+          <Text />
+          <AutoHeight>true</AutoHeight>
+          <Font>Tahoma, 20.25pt, style=Bold</Font>
+          <ForeColor>Black</ForeColor>
+        </MPSReportField>
+      </Fields>
+    </MPSReportPage>
+  </Pages>
+  <SubReports />
+  <DefaultFont>Tahoma, 10pt</DefaultFont>
+</MPSReportDocument>
